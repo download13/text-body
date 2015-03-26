@@ -1,6 +1,6 @@
 {
   "name": "text-body",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Middleware for parsing text/plain request bodies",
   "main": "index.js",
   "scripts": {
@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/download13/text-body/issues"
   },
-  "homepage": "https://github.com/download13/text-body"
+  "homepage": "https://github.com/download13/text-body",
+  "dependencies": {
+    "raw-body": "^1.3.3"
+  }
 }
